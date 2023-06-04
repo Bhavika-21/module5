@@ -5,7 +5,7 @@ const searchHistoryList = document.getElementById('search-history');
 const headerTitle = document.getElementById('header');
 
 // Get the API key from the user
-const apiKey = '68kbBcAhhJbru5lSp6mmI7ZEZiA5Mix7rRtqJZuQ';
+const apiKey = 'fXLyRzTuhs73xW3Qe2hzNGBAthybnBtV4tkdiIyg';
 
 // Set the current date
 const currentDate = new Date().toISOString().split('T')[0];
@@ -52,7 +52,7 @@ function getImageOfTheDay(date) {
       if (date === currentDate) {
         headerTitle.innerHTML = ' NASA Picture of the Day';
       } else {
-        document.getElementById('header').textContent = `Picture on ${date}`;
+        document.getElementById('header').textContent = `⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆ Picture was captured on ${date}⋆｡ﾟ☁︎｡⋆｡ ﾟ☾ ﾟ｡⋆`;
       }
     })
     .catch(error => console.error(error));

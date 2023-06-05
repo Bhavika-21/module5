@@ -5,7 +5,7 @@ const searchHistoryList = document.getElementById('search-history');
 const headerTitle = document.getElementById('header');
 
 // Get the API key from the user
-const apiKey = 'fXLyRzTuhs73xW3Qe2hzNGBAthybnBtV4tkdiIyg';
+const apiKey = 'esdEBb2g5MQz0Y7cRqcCSAd2QhKvexlxLCyPKFJT';
 
 // Set the current date
 const currentDate = new Date().toISOString().split('T')[0];
